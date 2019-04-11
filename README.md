@@ -24,6 +24,11 @@ pip install --upgrade setuptools
 pip install pyahocorasick
 pip install py2neo
 
+3. 修改以下文件的用户名和密码，跟neo4j保持一致
+build_medicalgraph.py
+answer_search.py
+
+
 # 项目运行方式
 1、配置要求：要求配置neo4j数据库及相应的python依赖包。neo4j数据库用户名密码记住，并修改相应文件。  
 2、知识图谱数据导入：python build_medicalgraph.py，导入的数据较多，估计需要几个小时。  
