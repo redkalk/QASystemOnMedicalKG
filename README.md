@@ -17,15 +17,21 @@ self-implement of disease centered Medical graph from zero to full and sever as 
 ![image](https://github.com/liuhuanyong/QABasedOnMedicalKnowledgeGraph/blob/master/img/chat2.png)
 
 # Install
+
 1. 安装neo4j
 
 2. Python3
+
 pip install --upgrade setuptools
+
 pip install pyahocorasick
+
 pip install py2neo
 
 3. 修改以下文件的用户名和密码，跟neo4j保持一致
+
 build_medicalgraph.py
+
 answer_search.py
 
 
